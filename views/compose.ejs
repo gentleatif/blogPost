@@ -1,0 +1,32 @@
+<%- include('partials/header'); -%>
+<div class="heading px-5">
+
+
+<form class="m-2" action="/compose" method="post">
+<div class="input-group">
+   <h1>Compose</h1>
+
+</div>
+<h6>Title</h6>
+  <div class="input-group mb-3">
+
+    <input autocomplete="off" name="postTitle" type="text" class="form-control">
+  </div>
+
+
+<h6>Post</h6>
+  <div class="input-group input-group-lg">
+
+    <textarea name="postBody" class="form-control "></textarea>
+  </div>
+<div class="input-group mt-2">
+  <button class="btn btn-sm btn-primary" type="submit" name="button">Publish</button>
+
+</div>
+
+</form>
+
+
+</div>
+
+<%- include('partials/footer'); -%>

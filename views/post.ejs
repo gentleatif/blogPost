@@ -1,0 +1,15 @@
+<%- include('partials/header'); -%>
+
+<!-- home  -->
+<div class="heading px-5">
+
+  <%  postItems.forEach((postItem, i) => {%>
+<h1><%= postItem.title %></h1
+      <p><%=postItem.body%></p>
+    <%   });%>
+
+</div>
+
+
+
+<%- include('partials/footer'); -%>
